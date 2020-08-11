@@ -12,6 +12,7 @@ https://fi.wikipedia.org/wiki/Luettelo_Suomen_kuntien_koordinaateista
 
 -Finnish borderline as shp-file:
 https://tiedostopalvelu.maanmittauslaitos.fi/tp/kartta?lang=en
+Licence: National Land Survey open data Attribution CC 4.0 licence
 
 
 Yet not finished/figured out:
