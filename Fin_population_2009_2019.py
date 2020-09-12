@@ -47,7 +47,7 @@ def bars(i):                                                                    
         for shape in sf.shapeRecords():                                                                 #Showing the Finnish borders
             x = [i[0] for i in shape.shape.points[:]]
             y = [i[1] for i in shape.shape.points[:]]
-                plt.plot(x,y)
+        plt.plot(x,y)
         return graph                                                                                    #Returns the list of 3d bars with updated values. Return is used to end the execution of the function call and “returns” the result to the caller. The statements after the return statements are not executed.
 
 ani = animation.FuncAnimation(fig, bars, frames=len(year_columns),interval=20, cache_frame_data=False)  #Creating the animation. https://matplotlib.org/3.3.0/api/_as_gen/matplotlib.animation.FuncAnimation.html. Disabling cache seems helpful when frame contain large number of objects.
